@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/global.css?20181029">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <style>
+        .head{
+            width:100%;
+            height: 5rem;
+            background: rgba(0,0,0,0.6);
+            position: absolute;
+            top:0;
+            line-height: 5rem;
+            z-index:1;
+            padding:0 15%;
+            box-sizing: border-box;
+            position:fixed;
+            top:0;
+        }
+        .dv_l{
+            float:left;
+        }
+        .dv_l img{
+            width: 10rem;
+            height: 2.5rem;
+            display: line-block;
+        }
+        .dv_r{
+            float:right;
+        }
+        .dv_r img{
+            width: 2rem;
+            height: 2rem;
+            display: inline-block;
+            vertical-align: sub;
+            margin-right:1rem;
+        }
+        .dv_r span{
+            width: 14rem;
+            height: 2rem;
+            font-family: ArialMT;
+            font-size: 2rem;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 0rem;
+            color: #ffffff;
+        }
+        .head ul{
+            display:flex;
+            margin:0 auto;
+            height: 100%;
+        }
+        .head ul li{
+            flex:1;
+            text-align: center;
+        
+        }
+        .head ul li a{
+            font-family: MicrosoftYaHei;
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+        .head ul li  i{
+            background:url(../image/index/nav_j.png) no-repeat;
+            width: 1rem;
+            height: .7rem;
+            background-size: 100% 100%;
+            display: inline-block;
+            margin-left:.5rem;
+        }
+        .actives_bot{
+            border-bottom:2px solid #2992F4;
+        }
+        .li_hideBox{
+            width: 18rem;
+            height: 18rem;
+            background: rgba(0,0,0,0.6);
+            position: absolute;
+            top:5rem;
+            left:28.5%;
+            padding-top:.5rem;
+            box-sizing: border-box;
+            display:none;
+        }
+        .li_hideBox span{
+            height: 3rem;
+            line-height: 3rem;
+            padding-left:2rem;
+            box-sizing: border-box;
+            display: block;
+            text-align: left!important;
+        }
+        .li_hideBox span a{
+            font-family: MicrosoftYaHei;
+            font-size: 1rem!important;
+            /* color: #057fef; */
+            color: #fff;
+        }
+        .li_hideBox_active{
+            color:#057fef;
+            background: #434444;
+        }
+        .li_hideBox span>b{
+            background: url(../image/index/news.png) no-repeat;
+            width: 1rem;
+            height: 1rem;
+            background-size: 100% 100%;
+            display: inline-block!important;
+            margin-right:.5rem;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="dv_l">
+            <img src="../image/index/logo.png" alt=""> 
+        </div>
+        <div class="dv_r">
+            <img src="../image/index/phone.png" alt="">
+            <span>400-800-8888</span>
+        </div>
+        <ul>
+            <li>
+                <a href="../index.html" id="home">首页</a>
+            </li>
+            <li class="projects ">
+                    <a>产品中心</a>
+                    <i></i>
+                    <div class="li_hideBox">
+                        <span class="li_hideBox_active"><b></b><a href="">体育竞赛管理系统</a></span>
+                        <span><b></b><a href="">综合业务管理系统</a></span>
+                        <span><b></b><a href="">慕课选课系统</a></span>
+                        <span><b></b><a href="../academy.html" id="shu">云善书院</a></span>
+                        <span><b></b><a href="../datalake.html">数据湖</a></span>
+                    </div>
+            </li>
+            <li>
+                    <a>解决方案</a>
+                    <i></i>
+            </li>
+            <li>
+                <a href="../news.html">新闻资讯</a>
+                    <i></i>
+            </li>
+            <li>
+                    <a>关于我们</a>
+                    <i></i>
+            </li>
+            <li></li>
+        </ul>  
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/pagination.js"></script>
+<script src="../js/rem.js"></script>
+<script src="../js/index.js"></script>
+</html>

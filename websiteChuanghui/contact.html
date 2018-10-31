@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="./css/global.css?20181029">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <style>
+        .map{
+            margin-top:5rem;
+        }
+        .map img{
+            width:50%;
+            background-size: 100% 100%;
+            display: block;
+            float:left;
+        }
+        .map div{
+            float:right;
+            margin-top:5rem;
+            margin-right:5rem;
+        }
+        .map div p{
+            line-height: 1rem;
+            font-family: MicrosoftYaHei;
+            font-size: 1rem;
+            color: #333333;
+            margin:2rem 0;
+        }
+        .addInfo{
+            margin-top:3rem;
+        }
+        .addInfo h3,h6{
+            text-align: center;
+        }
+        .addInfo>h3{
+            font-size:3rem;
+        }
+        h6{
+            font-size:1.2rem;
+            margin-top:.4rem;
+        }
+        .info_box{
+            margin-top:3rem;
+            height: 30rem;
+            padding:0 10%;
+            box-sizing: border-box;
+        }
+        .info_box div{
+            width:50%;
+            float:left;
+        }
+        .info_box div label{
+            display:block;
+            width:100%;
+            margin-top:1rem;
+        }
+        .info_box div label span{
+            display:block;
+            text-align: left;
+            font-size:1.5rem;
+            color:#666666;
+            font-family: MicrosoftYaHei;
+        }
+        .info_box div label input{
+            height: 3rem;width: 80%;
+            font-size:1.5rem;
+            padding-left:1rem;
+            background-color: #efefef;
+            border:1px solid #e2e2e2;
+            margin-top:.5rem;
+        }
+        .info_box div label b{
+            color:#0099ff;
+        }
+        .sends{
+            width: 12rem;
+            height: 3rem;
+            background-color: #ff8200;
+            color:#fff;
+            line-height: 3rem;
+            font-size:1.5rem;
+            text-align: center;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="head_box">
+            <div class="head">
+                <div class="dv_l">
+                    <img src="./image/index/logo.png" alt=""> 
+                </div>
+                <div class="dv_r">
+                    <img src="./image/index/phone.png" alt="">
+                    <span>400-800-8888</span>
+                </div>
+                <ul>
+                    <li>
+                         <a href="./index.html">首页</a>
+                    </li>
+                    <li class="projects ">
+                         <a>产品中心</a>
+                         <i></i>
+                         <div class="li_hideBox">
+                              <span class="li_hideBox_active"><b></b><a href="">体育竞赛管理系统</a></span>
+                              <span><b></b><a href="">综合业务管理系统</a></span>
+                              <span><b></b><a href="">慕课选课系统</a></span>
+                              <span><b></b><a href="./academy.html">云善书院</a></span>
+                              <span><b></b><a href="javascript:void(0)">数据湖</a></span>
+                         </div>
+                    </li>
+                    <li>
+                         <a>解决方案</a>
+                         <i></i>
+                    </li>
+                    <li>
+                        <a href="./news.html">新闻资讯</a>
+                         <i></i>
+                    </li>
+                    <li>
+                         <a>关于我们</a>
+                         <i></i>
+                         <div class="li_hideBox">
+                            <span class="li_hideBox_active"><b></b><a href="./about.html">企业简介</a></span>
+                            <span><b></b><a href="./contact.html">联系我们</a></span>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>  
+            </div>
+            <div class="banner">
+                 <img src="./image/about/about_banner_01.jpg" alt="">   
+            </div>
+        </div>  
+        <div class="level">
+            <div class="navs" style="margin-bottom:1.5rem;">
+                    <img src="./image/about/home.png" alt="" style="width:1.4rem;height:1.2rem;vertical-align: sub;margin-right:.5rem;"><a href="./index.html" style="color:#000;">首页</a>>
+                    <span>关于我们</span>>
+                    <span>联系我们</span>
+                </div>
+              <h3>联系我们</h3>
+              <div class="map">
+                  <img src="./image/about/1.png" alt="">
+                  <div>
+                      <h3>东莞市创慧教育信息科技有限公司</h3>
+                      <p>地址：广东省东莞市南城街道鸿福社区元美路华凯广场B座1010号 </p>
+                      <p>电话：（0769）28826186</p>
+                      <p>手机号码：18938226298</p>
+                  </div>
+              </div>
+              <div style="clear:both"></div>
+              <div class="addInfo">
+                  <h3>LEAVE A MESSAGE</h3>
+                  <h6>请把您的需求以及宝贵的建议留言给我们</h6>
+                  <div class="info_box">
+                      <div class="left">
+                           <label for="name">
+                               <span><b>*</b>姓名</span>
+                               <input type="text" id="name">
+                           </label>
+                           <label for="phone">
+                               <span><b>*</b>电话</span>
+                               <input type="text" id="phone">
+                           </label>
+                           <label for="email">
+                               <span>邮箱</span>
+                               <input type="text" id="email">
+                           </label>
+                           <label for="company">
+                               <span>公司</span> 
+                               <input type="text" id="company">
+                           </label>
+                      </div>
+                      <div class="right">
+                           <label for="project">
+                               <span><b>*</b>项目</span>
+                               <input type="text" id="project">
+                           </label>
+                           <label for="suggest">
+                               <span><b>*</b>建议</span>
+                               <input type="text" id="suggest">
+                           </label>
+                      </div>
+                  </div>
+                  <div class="sends">发送留言</div>
+              </div>
+        </div>
+        <div style="clear:both;"></div>
+        <!-- 底部 -->
+        <div class="foot">
+                <div>
+                    <h3>解决方案</h3>
+                    <p>政府信息化服务</p>
+                    <p>教育信息化服务</p>
+                    <p>企业信息化服务</p>
+                </div>
+                <div>
+                    <h3>产品中心</h3> 
+                    <p>数据湖</p>
+                    <p>体育竞赛管理系统</p>
+                    <p>综合业务管理系统</p>
+                    <p>慕课选课系统</p>
+                    <p>云善书院</p>
+                </div>
+                <div>
+                    <h3>关于创慧</h3>
+                    <p>公司简介</p>
+                    <p>加入我们</p>
+                    <p>联系方式</p>
+                </div>
+                <div>
+                    <h3>合作洽谈</h3>
+                    <p>点此与我联系</p>
+                </div>
+                <div>
+                    <h3>关于我们</h3>
+                    <img src="./image/index/code.jpg" alt="" id="codes">    
+                </div>
+                </div>
+                <p class="foot_title">Copyright © 2018 东莞市创慧教育信息科技有限公司</p>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/rem.js"></script>
+<script src="./js/index.js"></script>
+</html>

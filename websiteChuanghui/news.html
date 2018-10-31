@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>新闻资讯</title>
+    <link rel="stylesheet" href="./css/global.css?20181029">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/pagination.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <style>
+        ul{
+            margin:0;
+        }
+        #wrapper {
+            width: 100rem;
+            margin: 20px auto;
+        }
+
+        .data-container {
+            margin-top: 5px;
+        }
+
+        .data-container ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .data-container li {
+            margin-bottom: 5px;
+            padding: 5px 10px;
+            background: #eee;
+            color: #666;
+        }
+        .paginationjs .paginationjs-pages li{
+            margin-left:.5rem!important;
+            border:1px solid #DCDCDC;
+            border-radius:5px;
+        }
+        .paginationjs .paginationjs-pages li:first-child, .paginationjs .paginationjs-pages li:first-child>a{
+            border-radius: none;
+        }
+        .paginationjs .paginationjs-pages li.active>a{
+            background:#1693D9;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="head_box">
+            <div class="head">
+                <div class="dv_l">
+                    <img src="./image/index/logo.png" alt=""> 
+                </div>
+                <div class="dv_r">
+                    <img src="./image/index/phone.png" alt="">
+                    <span>400-800-8888</span>
+                </div>
+                <ul>
+                    <li>
+                         <a href="./index.html">首页</a>
+                    </li>
+                    <li class="projects ">
+                         <a>产品中心</a>
+                         <i></i>
+                         <div class="li_hideBox">
+                              <span class="li_hideBox_active"><b></b><a href="">体育竞赛管理系统</a></span>
+                              <span><b></b><a href="">综合业务管理系统</a></span>
+                              <span><b></b><a href="">慕课选课系统</a></span>
+                              <span><b></b><a href="./academy.html">云善书院</a></span>
+                              <span><b></b><a href="javascript:void(0)">数据湖</a></span>
+                         </div>
+                    </li>
+                    <li>
+                         <a>解决方案</a>
+                         <i></i>
+                    </li>
+                    <li>
+                         <a>新闻资讯</a>
+                         <i></i>
+                    </li>
+                    <li>
+                         <a href="./about.html">关于我们</a>
+                         <i></i>
+                         <div class="li_hideBox">
+                            <span class="li_hideBox_active"><b></b><a href="./about.html">企业简介</a></span>
+                            <span><b></b><a href="./contact.html">联系我们</a></span>
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>  
+            </div>
+            <div class="banner">
+                 <img src="./image/new/news_banner_01.jpg" alt="">   
+            </div>
+        </div>  
+        <div class="level">
+            <div class="navs" style="margin-bottom:1.5rem;">
+                <img src="./image/about/home.png" alt="" style="width:1.4rem;height:1.2rem;vertical-align: sub;margin-right:.5rem;"><a href="./index.html" style="color:#000;">首页</a>>
+                <span>新闻资讯</span>>
+                <span>行业新闻</span>
+            </div>
+            <div class="box_left">
+                 <ul class="uls">
+                     <li>
+                         <img src="./image/new/news_img_04.jpg" alt="">  
+                         <div>
+                             <h3>AI人才战：大牛跳槽只是八卦，人才标准才是核心</h3>
+                             <p>很多人习惯将人工智能比作行驶中的汽车，数据是燃料，人才是引擎，算力是底盘，
+                                任何一个环节存在缺口，这辆车注定是跑不快的。</p>
+                             <h4>
+                                 <i></i>
+                                 2018-10-10
+                             </h4>
+                         </div>
+                     </li>
+                     <li>
+                         <img src="./image/new/news_img_04.jpg" alt="">  
+                         <div>
+                             <h3>AI人才战：大牛跳槽只是八卦，人才标准才是核心</h3>
+                             <p>很多人习惯将人工智能比作行驶中的汽车，数据是燃料，人才是引擎，算力是底盘，
+                                任何一个环节存在缺口，这辆车注定是跑不快的。</p>
+                             <h4>
+                                 <i></i>
+                                 2018-10-10
+                             </h4>
+                         </div>
+                     </li>
+                     <li>
+                         <img src="./image/new/news_img_04.jpg" alt="">  
+                         <div>
+                             <h3>AI人才战：大牛跳槽只是八卦，人才标准才是核心</h3>
+                             <p>很多人习惯将人工智能比作行驶中的汽车，数据是燃料，人才是引擎，算力是底盘，
+                                任何一个环节存在缺口，这辆车注定是跑不快的。</p>
+                             <h4>
+                                 <i></i>
+                                 2018-10-10
+                             </h4>
+                         </div>
+                     </li>
+                     <li>
+                         <img src="./image/new/news_img_04.jpg" alt="">  
+                         <div>
+                             <h3>AI人才战：大牛跳槽只是八卦，人才标准才是核心</h3>
+                             <p>很多人习惯将人工智能比作行驶中的汽车，数据是燃料，人才是引擎，算力是底盘，
+                                任何一个环节存在缺口，这辆车注定是跑不快的。</p>
+                             <h4>
+                                 <i></i>
+                                 2018-10-10
+                             </h4>
+                         </div>
+                     </li>
+                     <li>
+                         <img src="./image/new/news_img_04.jpg" alt="">  
+                         <div>
+                             <h3>AI人才战：大牛跳槽只是八卦，人才标准才是核心</h3>
+                             <p>很多人习惯将人工智能比作行驶中的汽车，数据是燃料，人才是引擎，算力是底盘，
+                                任何一个环节存在缺口，这辆车注定是跑不快的。</p>
+                             <h4>
+                                 <i></i>
+                                 2018-10-10
+                             </h4>
+                         </div>
+                     </li>
+                 </ul>
+                 <div id="wrapper"></div>
+            </div>     
+            <div class="box_right">
+                 <div class="serach">
+                     <input type="text" placeholder="搜索文章...">
+                     <span>搜索</span>
+                 </div>
+                 <h2>新闻资讯</h2>
+                 <div class="select_new">
+                      <div class="actives">
+                          <i class="r x"></i>
+                          <span>行业新闻</span>
+                          <b>（21）</b>
+                      </div>
+                      <div>
+                          <i class="r"></i>
+                          <span>公司新闻</span>
+                          <b>（8）</b>
+                      </div>
+                      <div>
+                          <i class="r"></i>
+                          <span>媒体报道</span>
+                          <b>（14）</b>
+                      </div>
+                 </div>
+                 <h2 style="border-bottom:1px solid #ccc;margin-top:4rem;">热门资讯推荐</h2>
+                 <div class="hot_box">
+                      <div>
+                          <span>打通软硬件交互，编程少年欲成为青啊实打实大苏打阿瑟东阿瑟东</span>
+                          <span>2018-10-10</span>
+                      </div>
+                      <div>
+                          <span>打通软硬件交互，编程少年欲成为青</span>
+                          <span>2018-10-10</span>
+                      </div> 
+                      <div>
+                          <span>打通软硬件交互，编程少年欲成为青</span>
+                          <span>2018-10-10</span>
+                      </div>
+                      <div>
+                          <span>打通软硬件交互，编程少年欲成为青</span>
+                          <span>2018-10-10</span>
+                      </div>
+                      <div>
+                          <span>打通软硬件交互，编程少年欲成为青</span>
+                          <span>2018-10-10</span>
+                      </div>
+                      <div>
+                          <span>打通软硬件交互，编程少年欲成为青</span>
+                          <span>2018-10-10</span>
+                      </div>
+                 </div>
+            </div>     
+        </div>
+        <div style="clear: both;"></div>
+        <!-- 底部 -->
+        <div class="foot">
+                <div>
+                    <h3>解决方案</h3>
+                    <p>政府信息化服务</p>
+                    <p>教育信息化服务</p>
+                    <p>企业信息化服务</p>
+                </div>
+                <div>
+                    <h3>产品中心</h3> 
+                    <p>数据湖</p>
+                    <p>体育竞赛管理系统</p>
+                    <p>综合业务管理系统</p>
+                    <p>慕课选课系统</p>
+                    <p>云善书院</p>
+                </div>
+                <div>
+                    <h3>关于创慧</h3>
+                    <p>公司简介</p>
+                    <p>加入我们</p>
+                    <p>联系方式</p>
+                </div>
+                <div>
+                    <h3>合作洽谈</h3>
+                    <p>点此与我联系</p>
+                </div>
+                <div>
+                    <h3>关于我们</h3>
+                    <img src="./image/index/code.jpg" alt="" id="codes">   
+                </div>
+                </div>
+                <p class="foot_title">Copyright © 2018 东莞市创慧教育信息科技有限公司</p>
+    </div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/pagination.js"></script>
+<script src="./js/rem.js"></script>
+<script src="./js/index.js"></script>
+<script>
+    // $('.select_new div').on('mouseenter',function(){
+    //     $(this).addClass('actives').siblings().removeClass('actives')
+    //     $(this).find('i').addClass('x').parent().siblings().find('i').removeClass('x')
+    // })  
+    $('.select_new div').on('click',function(){
+        $(this).addClass('actives').siblings().removeClass('actives')
+        $(this).find('i').addClass('x').parent().siblings().find('i').removeClass('x')
+    })  
+    var arr = [];
+    for (var i=0;i<100;i++){
+        arr.push(i)
+    }
+    console.log(arr);
+    $('#wrapper').pagination({
+        dataSource: arr,
+        callback: function(data, pagination) { //回调函数 当我们点击页数执行的方法
+            console.log(data,pagination)　　//pagination对象 有我们需要的当前选择页数。
+            // 执行ajax传递pageNumber ++
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,218 @@
+.level{
+    width:100%;
+    padding:1rem 25%;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.level1{
+    margin-top:3rem;
+}
+h4{
+    width:100%;
+    text-align: center;
+    font-family: MicrosoftYaHei;
+    color:#666666;
+    font-size:2rem;
+}
+.lines{
+    width:8rem;
+    height: .3rem;
+    display: block;
+    background: #9b9b9b;
+    margin:1rem auto;
+}
+.boxs{
+    /* width:100%;
+    padding:1rem 25%;
+    margin:0 auto;
+    box-sizing: border-box; */
+}
+.box_l{
+    width: 45%;
+    float:left;
+    overflow: hidden;
+    margin-top:3rem;
+}
+h2{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 2.4rem;
+	color: #1fb34e;
+}
+h3{
+    font-family: MicrosoftYaHei-Bold;
+	font-size: 1.6rem;
+    color: #1fb34e; 
+    margin-top:2rem;
+}
+.level p{
+    font-size:1.2rem;
+    font-family: MicrosoftYaHei;
+    color: #9e9e9e;
+    margin:.5rem auto;
+}
+.box_r{
+    width:40%;
+    float:left;
+}
+.box_r img{
+    width: 30rem;
+    height: 24rem;
+    background-size: 100% 100%;
+}
+.level2{
+    margin-top:3rem;
+}
+.level2_box{
+    background:url(../image/academy/level2.jpg) no-repeat;
+    width:100%;
+    height: 22rem;
+    background-size: 100% 100%;
+    margin-top:2rem;
+    position: relative;
+}
+.tit_l{
+    position: absolute;
+    left:7%;
+    top:20%;
+}
+.tit_l p{
+    color:#FFF;
+    font-size:2rem;
+    text-align: center;
+}
+.tit_l p:nth-child(1){
+    font-size:2.5rem;
+}
+.tit_r{
+    position: absolute;
+    right:7%;
+    top:20%; 
+}
+.tit_r p{
+    color:#FFF;
+    font-size:2rem;
+    text-align: center;
+}
+.tit_r p:nth-child(1){
+    font-size:2.5rem;
+}
+.tit_l_t{
+    position: absolute;
+    left:8%;
+    bottom:6.5%;
+    color:#FFF;
+    font-size:1.5rem;
+}
+.tit_r_t{
+    position: absolute;
+    right:8%;
+    bottom:6.5%;
+    color:#FFF;
+    font-size:1.5rem;
+}
+.tit_cent_s{
+    position: absolute;
+    left:35%;
+    top:5%;
+}
+.tit_cent_s p:nth-child(1){
+    color:#07B43E;
+    font-size:2rem;
+}
+.tit_cent_s p{
+    color:#ccc;
+    font-size:1.2rem;
+}
+.tit_cent_x{
+    position: absolute;
+    left:35%;
+    bottom:20%;
+}
+.tit_cent_x p:nth-child(1){
+    color:#07B43E;
+    font-size:2rem;
+}
+.tit_cent_x p{
+    color:#ccc;
+    font-size:1.2rem;
+}
+/*  */
+.level3_box{
+    background: url(../image/academy/level3.jpg) no-repeat;
+    width:100%;
+    height: 45rem;
+    background-size: 100% 100%;
+    position:relative;
+}
+.level3_box .tit{
+    position:absolute;
+    left:22.5%;
+}
+.level3_box .tit p{
+    color:#008835;
+    width:88%;
+    font-family: MicrosoftYaHei;
+    font-size:1rem;
+}
+.tit1{
+   top:10%;
+}
+.tit2{
+    top:33%;
+}
+.tit3{
+    top:59%;
+}
+.tit4{
+    top:84%;
+}
+/*  */
+.level4{
+    background:url(../image/academy/ld2.png) no-repeat;
+    width:100%;
+    height: 40rem;
+    background-size: 100% 100%;
+    padding-top:2rem;
+    box-sizing: border-box;
+}
+/*  */
+.level5_box{
+    display:flex;
+    margin-top:3rem;
+}
+.level5_box div{
+    flex:1;
+    margin-left:2rem;
+}
+.level5_box div img{
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+}
+.level5_box div:nth-child(1){
+    margin-left:0;
+}
+
+/*  */
+.level6_box {
+    margin-top:3rem;
+    height: 40rem;
+}
+.level6_box .box_content{
+    margin-top:1rem;
+}
+.level6_box .box_content img{
+    width: 35%;
+    
+    background-size: 100% 100%;
+    float:left;
+}
+.level6_box .box_content div{
+    width:63%;
+    float:left;
+    margin-left:2%;
+}
+.level6_box .box_content div p{
+    font-size:1rem;
+    color:#666666;
+}

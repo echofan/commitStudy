@@ -1,0 +1,130 @@
+.head_box{
+    height: 35rem!important;
+}
+.level{
+    padding:1rem 14% 5rem;
+    height:75rem;
+    box-sizing: border-box;
+}
+.box_left{
+    float:left;
+    width:65%;
+}
+.box_left .uls li{
+    margin-bottom:1.5rem;
+    height: 11rem;
+}
+.box_left img{
+    width: 30%;
+    height: 10rem;
+    background-size: 100% 100%;
+    float:left;
+}
+.box_left div{
+    float:left;
+    width:65%;
+    margin-left:5%;
+    margin-top:1.5rem;
+}
+.box_left div h3{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 1.5rem;
+    color: #0093dd;
+}
+.box_left div p{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 1rem;
+    color: #333333;
+    margin-top:1rem;
+}
+.box_left div h4{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 1rem;
+    color:#999999;
+    margin-top:1rem;
+}
+.box_right{
+    width:30%;
+    float:right;
+}
+.serach{
+    height: 3rem;
+    width:100%;
+}
+.serach input{
+    border:none;
+    background: #F2F2F2;
+    widows: 70%;
+    float:left;
+    height: 3rem;
+    padding-left:1rem;
+    box-sizing: border-box;
+}
+.serach span{
+    width:30%;
+    float:left;
+    background: #0093DD;
+    color:#fff;
+    text-align: center;
+    line-height: 3rem;
+}
+h2{
+    margin-top:2rem;
+    font-family: MicrosoftYaHei;
+    font-size: 2rem;
+    color: #666666;
+}
+.select_new{
+    margin-top:2rem;
+}
+.select_new div{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size:1.4rem;
+    padding:0 1rem;
+}
+.select_new div i.r{
+    background:url(../image/new/you.png) no-repeat;
+    width: 1rem;height: 1rem;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.select_new div i.x{
+    background:url(../image/new/xia.png) no-repeat;
+    width: 1rem;height: 1rem;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.select_new div b{
+    float:right;
+}
+.select_new div span{
+    margin-left:1rem;
+}
+.actives{
+    background: #0093dd;
+    color:#fff;
+}
+.hot_box div{
+    height: 5rem;
+    font-family: SourceHanSansCN-Normal;
+}
+.hot_box div span:nth-child(1){
+    color:#000000;
+    float:left;
+    width:70%;
+    margin-top:1rem;
+    font-size:1.1rem;
+    line-height:1.5rem;
+}
+.hot_box div span:nth-child(2){
+    color:#999999;
+    width:25%;
+    float:right;
+    text-align: right;
+    font-size:1rem;
+    line-height: 5rem;
+}
+
