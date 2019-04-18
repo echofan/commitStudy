@@ -1,0 +1,47 @@
+防抖和节流的作用都是防止函数多次调用。区别在于，假设一个用户一直触发这个函数，且每次触发函数的间隔小于设置的时间，防抖的情况下只会调用一次，而节流的情况会每隔一定时间调用一次函数。
+```
+防抖(debounce): n秒内函数只会执行一次，如果n秒内高频事件再次被触发，则重新计算时间
+```
+
+```
+function debounce(func, wait, immediate=true) {
+    let timeout, context, args;
+        // 延迟执行函数
+        const later = () => setTimeout(() => {
+            // 延迟函数执行完毕，清空定时器
+            timeout = null
+            // 延迟执行的情况下，函数会在延迟函数中执行
+            // 使用到之前缓存的参数和上下文
+            if (!immediate) {
+                func.apply(context, args);
+                context = args = null;
+            }
+        }, wait);
+        let debounced = function (...params) {
+            if (!timeout) {
+                timeout = later();
+                if (immediate) {
+                    //立即执行
+                    func.apply(this, params);
+                } else {
+                    //闭包
+                    context = this;
+                    args = params;
+                }
+            } else {
+                clearTimeout(timeout);
+                timeout = later();
+            }
+        }
+    debounced.cancel = function () {
+        clearTimeout(timeout);
+        timeout = null;
+    };
+    return debounced;
+};
+
+```
+
+防抖的应用场景:
+1、每次 resize/scroll 触发统计事件
+2、文本输入的验证（连续输入文字后发送 AJAX 请求进行验证，验证一次就好）
