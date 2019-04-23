@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "echofan-npm-test": "^1.0.0"
+    "echofan-npm-test": "^1.0.2"
   }
 }
